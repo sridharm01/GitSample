@@ -1,6 +1,5 @@
 def greetings(name):
-    print(f"Hello, {name} - from Developer B")
-
+    print(f"Hello, {name} - from Developer A and B")
 
 def farewell(name):
     print(f"Goodbye, {name}")
