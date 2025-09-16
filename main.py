@@ -1,8 +1,5 @@
-def greetings(name):
-    print(f"Hello, {name} - from Developer A and B")
+def greet(name):
+    return f"Hello, {name}!"
 
-def farewell(name):
-    print(f"Goodbye, {name}")
-
-greetings("sridhar")
-farewell("sridhar")
+if __name__ == "__main__":
+    print(greet("Jenkins CI"))
